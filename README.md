@@ -7,20 +7,20 @@
 ├── server	// 后台（Flask+uWSGI+Nginx）  
 ├── screen	// 截图  
 
-##截图
-###小程序
-####首页
+## 截图
+### 小程序
+#### 首页
 ![](https://github.com/xukaike/personalsys/blob/master/screen/a1.png)  
-####事务
+#### 事务
 ![](https://github.com/xukaike/personalsys/blob/master/screen/a2.png)  
-####日记
+#### 日记
 ![](https://github.com/xukaike/personalsys/blob/master/screen/a3.png)![](https://github.com/xukaike/personalsys/blob/master/screen/a4.png)![](https://github.com/xukaike/personalsys/blob/master/screen/a5.png) 
-####通讯录
+#### 通讯录
 ![](https://github.com/xukaike/personalsys/blob/master/screen/a6.png)
-####记账本
+#### 记账本
 ![](https://github.com/xukaike/personalsys/blob/master/screen/a7.png)
 ![](https://github.com/xukaike/personalsys/blob/master/screen/a8.png)
-###Vue后台
+### Vue后台
 ![](https://github.com/xukaike/personalsys/blob/master/screen/b1.png)
 ![](https://github.com/xukaike/personalsys/blob/master/screen/b2.png)
 ![](https://github.com/xukaike/personalsys/blob/master/screen/b3.png)
