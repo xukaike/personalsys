@@ -1,0 +1,23 @@
+<view class='bg-white'>
+  <form>
+    <view class="cu-form-group margin-top">
+      <view class="title">标题</view>
+      <input placeholder="你想做什么？" bindinput="nameinput" value='{{item.name}}'></input>
+    </view>
+    <view class="cu-form-group ">
+      <view class="title">详细</view>
+      <input placeholder="" bindinput="detailinput" value='{{item.detail}}'></input>
+    </view>
+      <view class="cu-form-group">
+      <view class="title">日期选择</view>
+      <picker mode="date" value="{{date}}" start="2015-09-01" end="2020-09-01" bindchange="DateChange">
+        <view class="picker">
+          {{item.timestramp}}
+        </view>
+      </picker>
+    </view>
+  </form>
+  <view class="padding flex flex-direction">
+    <button class="cu-btn bg-blue  round margin-tb-sm lg" bindtap='confrim'>提交</button>
+  </view>
+</view>

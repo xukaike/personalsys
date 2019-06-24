@@ -1,0 +1,18 @@
+<scroll-view scroll-y class="scrollPage contaner">
+  <view class="UCenter-bg">
+    <view class="text-xl">私人事务管理系统
+      <text class="text-df">v0.8</text>
+    </view>
+    <view class="margin-top-sm">
+      <text>16052006徐楷</text>
+    </view>
+  </view>
+  <view class='nav-list'>
+    <navigator hover-class='none' url="/pages/{{item.name}}/{{item.name}}" class="nav-li bg-{{item.color}}" wx:for="{{elements}}" wx:key>
+      <view class="nav-title">{{item.title}}</view>
+      <view class="nav-name">{{item.name}}</view>
+      <text class='cuIcon-{{item.icon}}'></text>
+    </navigator>
+  </view>
+  <view class='cu-tabbar-height'></view>
+</scroll-view>

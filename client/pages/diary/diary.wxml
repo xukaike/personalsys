@@ -1,0 +1,43 @@
+<view class="cu-bar justify-center bg-white">
+    <view class="action sub-title" bindtap='toadd'>
+      <text class="cuIcon-edit "></text>
+      <text class="text-xl text-bold text-black">写日记</text>
+      <text class="text-Abc text-black">diary</text>
+    </view>
+</view>
+
+<view class="cu-timeline">
+  <view class="cu-item" wx:for="{{stafflist}}" wx:key>
+    <view class="content bg-yellow">
+      <view class="cu-capsule radius justify-center">
+        <view class="cu-tag bg-yellow light">{{item.name}}</view>
+      </view>
+      <view class="margin-top">{{item.intro}}</view>
+    </view>
+    <view class="margin-top-sm flex justify-between">
+        <view class="text-gray text-df">{{item.timestramp}}</view>
+        <view>
+          <text class="cuIcon-settingsfill text-black" bindtap='toedit'data-item="{{item}}"></text>
+          <text class="cuIcon-deletefill text-red margin-left-sm" bindtap='delete' data-item='{{item}}'></text>
+        </view>
+      </view>
+  </view>
+</view>
+
+<view class="cu-modal {{modal==true?'show':''}}">
+  <view class="cu-dialog">
+    <view class="cu-bar bg-white justify-end">
+      <view class="action" bindtap="canceldelete">
+        <text class="cuIcon-close text-red"></text>
+      </view>
+    </view>
+    <view class="padding-xl bg-white">
+      确定删除吗
+    </view>
+    <view class="cu-bar bg-white">
+      
+      <view class="action margin-0 flex-sub text-green solid-left" bindtap="canceldelete">取消</view>
+      <view class="action margin-0 flex-sub text-red solid-left" bindtap="confrimdelete">确定</view>
+    </view>
+  </view>
+</view>

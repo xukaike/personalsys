@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/staff/staff",
+    "pages/account/account",
+    "pages/contact/contact",
+    "pages/diary/diary",
+    "pages/diary/add/add",
+    "pages/diary/edit/edit",
+    "pages/staff/add/add",
+    "pages/staff/edit/edit",
+    "pages/contact/edit/edit",
+    "pages/contact/add/add"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "私人事务管理",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

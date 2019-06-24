@@ -1,0 +1,23 @@
+<view class='bg-white'>
+  <form>
+    <view class="cu-form-group ">
+      <view class="title">姓名</view>
+      <input  bindinput="nameinput" value='{{item.name}}'></input>
+    </view>
+    <view class="cu-form-group ">
+      <view class="title">号码</view>
+      <input  bindinput="numberinput" value='{{item.number}}'></input>
+    </view>
+    <view class="cu-form-group ">
+      <view class="title">邮箱</view>
+      <input  bindinput="emailinput" value='{{item.email}}'></input>
+    </view>
+    <view class="cu-form-group ">
+      <view class="title">地址</view>
+      <input  bindinput="addressinput" value='{{item.address}}'></input>
+    </view>
+  </form>
+  <view class="padding flex flex-direction">
+    <button class="cu-btn bg-cyan  round margin-tb-sm lg" bindtap='confrim'>确定</button>
+  </view>
+</view>

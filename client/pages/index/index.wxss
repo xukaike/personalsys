@@ -1,0 +1,73 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.contaner{
+  background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560878290317&di=20ecd1ac54a29a389ffe3fc5de84176f&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Fc3336dcd3306e384cc9d22815e472f0b3f7c74cb1c90f5-pKRZhJ_fw658");
+  background-repeat:no-repeat; 
+  background-size:100% 100%;
+  -moz-background-size:100% 100%;
+}
+
+.UCenter-bg {
+  background-size: cover;
+  height: 500rpx;
+  display: flex;
+  justify-content: center;
+  padding-top: 40rpx;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-weight: 300;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.UCenter-bg text {
+  opacity: 0.8;
+}
+
+.UCenter-bg image {
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.UCenter-bg .gif-wave{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  mix-blend-mode: screen;  
+  height: 100rpx;   
+}
+
+map,.mapBox{
+  left: 0;
+  z-index: 99;
+  mix-blend-mode: screen;  
+  height: 100rpx;   
+}
+
+map,.mapBox{
+  width: 750rpx;
+  height: 300rpx;
+}
